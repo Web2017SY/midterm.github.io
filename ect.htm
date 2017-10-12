@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<style>
+#menubar{
+	background-color:grey;
+	width:100%;
+	float: left;
+}
+#menubar ul li {
+	list-style: none;
+	display : inline;
+ 	text-align: center;
+}
+#menubar a {
+	text-decoration :none;
+	font: bold 20px "Trebuchet MS", Dotum, Arial;
+	color:white;
+}
+#menubar .menuLink:hover{
+	color : brown;
+}
+#wrapper{
+	position:absolute; top:15%;
+	display: table;
+	border-spacint:10px;
+	text-align:center;
+}
+#c1{
+	display: table-cell;
+	width:500px;
+	height: 550px;
+	background-color:#8E531C;
+	margin:3px;
+}
+#c2{
+	display: table-cell;
+	width:500px;
+	height: 550px;
+	background-color:#f0e68c;
+	padding : 10px;
+	margin:3px;
+}
+#c3{
+	display: table-cell;
+	width:500px;
+	height: 550px;
+	background-color:#93aaff;
+	margin:3px;
+}
+#tb{
+	margin: 10px;
+	width: 400px;
+	border:2px solid;
+	cellpadding: 5px;
+	text-align : center;
+	
+}
+td, th{
+	border: 1px solid;
+}
+th{
+	background-color:blue;
+	color:white;
+}
+td{
+	background-color: white;
+}
+h3{ text-align:center; pont: bold;}
+
+</style>
+<head>
+<title>ects</title>
+<nav id = "menubar">
+			<ul>
+				<li><a class="menuLink" href="Main.htm" target="_self">Main&nbsp;</a></li>
+				<li>|&nbsp;</li>
+				<li><a class="menuLink" href="projects.htm" target="_self">projects&nbsp;&nbsp;</a></li>
+				<li><a class="menuLink" href="essay.htm" target="_self">essay&nbsp;&nbsp;</a></li>
+				<li><a class="menuLink" href="ect.htm" target="_self">ects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>	
+			</ul>
+		</nav><!--메뉴리스트-->
+</head>
+
+<body>
+<div id="wrapper">
+	<div id="c1">
+		<h3>Coffee</h3>
+		<img src="cofe_fb.png" width="300" height: "400";>
+		<iframe src="inner.html" width="300" height: "400"; style="margin: 10px;"></iframe>
+	</div>
+		
+	<div id="c2">
+		<h3>YouTube</h3>
+		<p>구독하고 있는 유투브</p>
+		<video width="450" height="480" controls border: 1px solid;>         
+			<source src="cat.mp4" type='video/mp4'>         
+			<p>Your user agent does not support HTML5.</p>     
+		</video> 
+	</div>
+	<div id="c3">
+		<h3>Recently Watched Movie list</h3>
+		<table id="tb">
+			<th>제목</th><th>장르</th>
+			<tr><td>킹스맨2</td><td>블록버스터</td></tr>
+			<tr><td>정무문</td><td>무협</td></tr>
+			<tr><td>공각기동대</td><td>만화</td></tr>
+			<tr><td>경계</td><td>독립</td></tr>
+			<tr><td>사울의 아들</td><td>독립</td></tr>
+			<tr><td>Batman: year-one</td><td>만화</td></tr>
+		</table>
+	</div>
+</div>
+</body>
+</html>

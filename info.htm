@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<style>
+body{ 
+	background-color:black;
+}
+#menubar{
+	background-color:grey;
+	width:100%;
+	float: left;
+}
+#menubar ul li {
+	list-style: none;
+	display : inline;
+ 	text-align: center;
+}
+#menubar a {
+	text-decoration :none;
+	font: bold 20px "Trebuchet MS", Dotum, Arial;
+	color:white;
+}
+#menubar .menuLink:hover{
+	color : brown;
+}
+
+#up{
+	vertical-align:center; 
+	position:relative ; top:25%; left:10%;
+	text-aline:center;
+}
+#down{
+	vertical-align:center; 
+	position: relative; top: 75%; 
+}
+
+#name{
+	font: bold 18px "Cursive", Dotum, Arial;
+	color:white;
+	padding:5px;
+}
+#pro{
+	font: bold 18px "Trebuchet MS", Dotum, Arial;
+	color:white;
+	list-style: none;	
+}
+#title{
+	font: bold 25px "Trebuchet MS", Dotum, Arial;
+	color:white;
+	margin-top:60px;
+}
+#anony{
+	font: bold 15px "Trebuchet MS", Dotum, Arial;
+	color:white;
+	float:right;
+	}
+#cf{
+	font: 10px "Trebuchet MS", Dotum, Arial;
+	color:white;
+}
+</style>
+s
+<head>
+<title>Information</title>
+<nav id = "menubar">
+			<ul>
+				<li><a class="menuLink" href="Main.htm" target="_self">Main&nbsp;</a></li>
+				<li>|&nbsp;</li>
+				<li><a class="menuLink" href="projects.htm" target="_self">projects&nbsp;&nbsp;</a></li>
+				<li><a class="menuLink" href="essay.htm" target="_self">essay&nbsp;&nbsp;</a></li>
+				<li><a class="menuLink" href="ect.htm" target="_self">ects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>		
+			</ul>
+		</nav><!--메뉴리스트-->
+</head>
+
+<body>
+<div id="up">
+</br>
+<p id="title">Profile</p>
+<img style="border-radius: 70px;
+ -moz-border-radius: 70px;
+ -khtml-border-radius: 70px;
+ -webkit-border-radius: 70px;"src="back.jpg"width="100"height="100"/>
+
+<span id="name">&nbsp;&nbsp;문소연 Moon so yeon</span>
+
+<ul id="pro">
+	<li>학번&nbsp;&nbsp;&nbsp;&nbsp; 2015313621</li>
+	<li>학과&nbsp;&nbsp;&nbsp;&nbsp; 국어국문, SCSC</li>
+	<li>메일&nbsp;&nbsp;&nbsp;&nbsp; orange9338@gmail.com</li>
+</ul>
+</div>
+
+<div id="down">
+</br>
+<hr color=white>
+</br>
+<fieldset id="name"> 
+
+	<legend>방명록 남기기 </legend>
+
+<form id="name">
+	이름&nbsp;&nbsp;&nbsp;&nbsp;<input type=“txet” name = “name" style ="width : 100px;"/>&nbsp;&nbsp;&nbsp; 
+	비밀번호&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name = "p"  placeholder="4자리 이상"style ="width : 100px;"/>&nbsp;
+	<span id="cf">(수정시 필요)</span>
+	</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<select name="open" style="height:25px; margin:5px;">  
+	  <option value="1"selected>공개</option> 
+	  <option value="2">비공개</option>  
+	</select>
+	</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<textarea id="fd" name="feedback" rows="5" cols="50"  placeholder="내용 입력" style="margin:5px"></textarea></br>
+	Email: 
+	<input type="email" name="이메일"  placeholder="HiHello14@skku.co">
+
+</fieldset>
+	</br>
+	<input type="submit" value="입력" style="float:right">&nbsp; 
+	<div id="anony">
+	익명
+ 		<input type="radio" name="parti" value="Y" />Y &nbsp;&nbsp;	    		
+		<input type="radio" name="parti" value="N" />N &nbsp;&nbsp;
+	</div>
+</form>	
+</div>
+</body>
+
+</html>

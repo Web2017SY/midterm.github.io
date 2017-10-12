@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<style>
+#menubar{
+	background-color:grey;
+	width:100%;
+	float: left;
+}
+#menubar ul li {
+	list-style: none;
+	display : inline;
+ 	text-align: center;
+}
+#menubar a {
+	text-decoration :none;
+	font: bold 20px "Trebuchet MS", Dotum, Arial;
+	color:white;
+}
+#menubar .menuLink:hover{
+	color : brown;
+}
+#gall{
+	border:10px solid;
+	height:400px;width:630px;
+	vertical-align:center; 
+	margin-left: 20%; margin-right:auto;
+	position:absolute; top:25%;
+	overflow:visible;
+}
+#gall ul{margin-left:-30px;}
+#gall ul li{
+	list-style:none;
+	display:inline-table;
+	padding:10px;
+}
+#gall ul li .pic{
+	-webkit-transition:all 0.6s ease-in-out;
+	opacity:0;
+	visibility:hidden;
+	position:absolute; margin-top:10px; margin-left:-20px;
+	border:1px solid;
+}
+#gall ulli.small:hover{
+	cursor:pointer;	
+}
+#gall ul li:hover .pic{
+	width:320px;height:240px;
+	opacity:1;
+	visibility: visible;
+	float:right;
+}
+#title{
+	font: bold 40px "Trebuchet MS", Dotum, Arial;
+	margin:10px;
+}
+</style>
+<head>
+<title>projects</title>
+<nav id = "menubar">
+			<ul>
+				<li><a class="menuLink" href="Main.htm" target="_self">Main&nbsp;</a></li>
+				<li>|&nbsp;</li>
+				<li><a class="menuLink" href="info.htm" target="_self">info&nbsp;</a></li>
+				<li><a class="menuLink" href="essay.htm" target="_self">essay&nbsp;&nbsp;</a></li>
+				<li><a class="menuLink" href="ect.htm" target="_self">ects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>	
+			</ul>
+		</nav><!--메뉴리스트-->
+</head>
+
+<body>
+<div id="title">projects</div>
+	<div id="gall">
+		<ul>
+<li><img src="pic1.jpg" class="small"width="180"height="150"><img src="ppic1.jpg" class="pic"width="120"height="110"></li>
+<li><img src="pic2.png" class="small"width="180"height="150"><img src="ppic2.jpg" class="pic"width="120"height="110"></li>
+<li><img src="pic3.png" class="small"width="180"height="150"><img src="ppic3.png" class="pic"width="120"height="110"></li>
+<li><img src="pic4.png" class="small"width="180"height="150"><img src="ppic4.png" class="pic"width="120"height="110"></li>
+<li><img src="pic5.png" class="small"width="180"height="150"><img src="ppic5.png" class="pic"width="120"height="110"></li>
+<li><img src="pic6.png" class="small"width="180"height="150"><img src="ppic6.png" class="pic"width="120"height="110"></li>
+		</ul>
+	</div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<style>
+ body{
+	background-image:url('back.jpg');
+}
+ audio{
+	float:right;
+}
+ .box{
+	background: white;
+	width:600px; height:400px;
+	position:absolute ; top:20%; left:25%;
+	padding-bottom:15px;
+	vertical-align:center; 
+	text-aline:center;
+	
+}<!--하얀 박스-->
+
+footer{
+	text-align: center;
+	padding: 10px;
+	margin: 0px 0px 0px 0px;
+	font-size: 90%;
+}
+
+#inbox{
+	margin-top:50px; margin-left: 60px; margin-right: 60px;
+	width:480px; height:280px;
+	background-image:url(Things.jpg);
+}
+
+
+
+#menubar{
+	width:480px; height:15px; clear:both;
+	text-align: center;
+}
+#menubar ul li {
+	list-style: none;
+	display : inline;
+ 	text-align: center;
+}
+#menubar a {
+	text-decoration :none;
+	font: bold 30px "Trebuchet MS", Dotum, Arial;
+	color:black;
+}
+#menubar .menuLink:hover{
+	color : brown;
+}
+
+</style>
+
+<head>
+<title>나의 웹페이지 만들기</title>
+</head>
+
+<body>
+<audio src=“kevin conroy - Am I blue.mp3”type="audio/mp3" autoplay controls loop>Your browser does not support the audio element.</audio>
+ 	<div class ="box">
+		<div id="inbox"></div>
+		<nav id = "menubar">
+			<ul>
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li><a class="menuLink" href="info.htm" target="_self">Info&nbsp;</a></li>
+				<li>|&nbsp;&nbsp;</li>
+				<li><a class="menuLink" href="projects.htm" target="_self">projects&nbsp;&nbsp;</a></li>
+				<li><a class="menuLink" href="essay.htm" target="_self">essay&nbsp;&nbsp;</a></li>
+				<li><a class="menuLink" href="ect.htm" target="_self">ects</a></li>	
+			</ul>
+		</nav><!--메뉴리스트-->
+	</div><!--하얀 박스-->
+	
+</body>
+<footer>이 사이트의 저작권은 어디에 있을까요@copyright</footer>
+</html>
+
